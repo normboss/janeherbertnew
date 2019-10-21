@@ -1,0 +1,213 @@
+@import "common";
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+.my-slides {
+    display: block;
+}
+img {
+    vertical-align: middle;
+}
+$background: #e9eaefd8;
+/* Slideshow container */
+.artwork-container {
+    // border: 3px solid red;
+    max-width: 1000px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    background-color: $background;
+    // padding-left: 25px;
+    // padding-right: 25px;
+    // height: 100vh; /
+    // padding-left: 50px;
+
+    .artwork {
+        padding-left: 50px;
+        margin: 0 auto;
+        text-align: center;
+        height: auto;
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            // position: absolute;
+            bottom: 8px;
+            width: 50%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+        .main-image {
+            width: 100%;
+            width: 700px;
+        }
+        .extra-image1 {
+            position: relative;
+            top: -200px;
+            left: -170px;
+            z-index: 5;
+        }
+        .extra-image2 {
+            position: relative;
+            top: -150px;
+            left: -250px;
+            z-index: 4;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: relative;
+            top: -150px;
+            // width: auto;
+            // padding: 16px;
+            // margin-top: -22px;
+            color: darkgrey; //#070404;
+            opacity: 5%;
+            font-weight: bold;
+            font-size: 32px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            text-decoration: none;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: -40%;
+            border-radius: 3px 0 0 3px;
+        }
+        .prev {
+            left: -45%;
+            // top: -100%;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            // background-color: rgba(0, 0, 0, 0.8);
+        }
+        .next-prev {
+            // background-color: pink;
+            width: 100%;
+        }
+    }
+
+    .text-section {
+        // position: relative;
+        // border: 3px solid red;
+        height: auto; //230px;
+        background-color: $background;
+        // padding-top: -25px; //16px;
+        padding-bottom: 10px;
+        margin-top: -180px;
+        display: flex;
+        // flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        .text {
+            width: 35%;
+            // border: 3px solid blue;
+            color: black;
+            // justify-self: flex-start;
+            padding-bottom: 20px;
+            padding-left: 15px;
+            padding-right: 40px;
+            text-align: left;
+            line-height: 25px; //200%; //20px;
+            font-family: Helvetica;
+            opacity: 75%;
+            .heading {
+                opacity: 100%;
+                font-weight: bold;
+            }
+        }
+        .emtpy {
+            width: 25%;
+        }
+
+        .image {
+            width: 140px;
+            // border: 3px solid blue;
+            color: black;
+            align-self: center;
+            // padding-bottom: 100px;
+            min-width: 130px;
+        }
+        @include max-mixin(800px) {
+            .empty {
+                display: none;
+            }
+            .text {
+                width: 60%;
+            }
+        }
+
+        /* Next & previous buttons */
+        // .prev,
+        // .next {
+        //     cursor: pointer;
+        //     // position: relative;
+        //     top: 60%;
+        //     width: auto;
+        //     // padding: 16px;
+        //     // margin-top: -22px;
+        //     color: #070404;
+        //     // font-weight: bold;
+        //     font-size: 32px;
+        //     transition: 0.6s ease;
+        //     border-radius: 0 3px 3px 0;
+        //     user-select: none;
+        //     text-decoration: none;
+        //     padding-left: 20px;
+        //     padding-right: 20px;
+        // }
+
+        // /* Position the "next button" to the right */
+        // .next {
+        //     right: 0;
+        //     // border-radius: 3px 0 0 3px;
+        // }
+        // .prev {
+        //     left: -80%;
+        //     // border-radius: 3px 0 0 3px;
+        // }
+
+        // /* On hover, add a black background color with a little bit see-through */
+        // .prev:hover,
+        // .next:hover {
+        //     // background-color: rgba(0, 0, 0, 0.8);
+        // }
+    }
+}
+.footer {
+    // max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    background-color: $background;
+    display: flex;
+    padding-top: 10px;
+    font-size: 13px;
+    opacity: 50%;
+    justify-content: space-around;
+}

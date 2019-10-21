@@ -1,0 +1,49 @@
+
+@mixin min-mixin($arg) {
+    @media screen and (min-width: $arg ) {
+        @content;
+    }
+}
+
+@mixin min-max-mixin($arg1, $arg2) {
+    @media screen and (min-width: $arg1 ) and (max-width: $arg2) {
+        @content;
+    }
+}
+
+@mixin max-mixin($arg) {
+    @media screen and (max-width: $arg ) {
+        @content;
+    }
+}
+
+
+.header {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background-color: #e9eaefd8;
+    display: flex;
+    justify-content: space-around;
+    // padding-left: 600px;
+    padding-top: 15px;
+    header-text {
+        // padding-right: 25px;
+        margin: 20px;
+    }
+}
+
+.footer {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    background-color: #E9EAEFD8;
+    display: flex;
+    padding-top: 10px;
+    font-size: 13px;
+    opacity: 50%;
+    justify-content: space-around;
+}
+

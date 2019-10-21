@@ -1,0 +1,177 @@
+@import "common";
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+.my-slides {
+    display: block;
+}
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.artwork-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    // background-color: #E9EAEFD8;
+    // padding-left: 25px;
+    // padding-right: 25px;
+    // height: 100vh; //600px;
+
+    .artwork {
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            // position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        .extra-image {
+            position: relative;
+            top: -200px;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: relative;
+            top: 0; //-200px;
+            // width: auto;
+            // padding: 16px;
+            // margin-top: -22px;
+            color: darkgrey; //#070404;
+            opacity: 5%;
+            font-weight: bold;
+            font-size: 32px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            text-decoration: none;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: -88%;
+            border-radius: 3px 0 0 3px;
+        }
+        .prev {
+            left: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            // background-color: rgba(0, 0, 0, 0.8);
+        }
+        .next-prev {
+            background-color: #e9eaefd8;
+        }
+    }
+
+    .text-section {
+        // position: relative;
+        // border: 3px solid red;
+        height: auto; //230px;
+        background-color: #e9eaefd8;
+        // padding-top: -25px; //16px;
+        padding-bottom: 10px;
+        margin-top: -25px;
+        display: flex;
+        // flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        .text {
+            width: 45%;
+            // border: 3px solid blue;
+            color: black;
+            // justify-self: flex-start;
+            padding-bottom: 20px;
+            padding-left: 35px;
+            padding-right: 20px;
+            text-align: left;
+            line-height: 25px; //200%; //20px;
+            font-family: Helvetica;
+            opacity: 75%;
+            .heading {
+                opacity: 100%;
+                font-weight: bold;
+            }
+        }
+
+        .image {
+            width: 140px;
+            // border: 3px solid blue;
+            color: black;
+            align-self: center;
+            // padding-bottom: 100px;
+            min-width: 130px;
+        }
+        @include max-mixin(800px) {
+            .empty {
+                display: none;
+            }
+            .text {
+                width: 60%;
+            }
+        }
+
+        /* Next & previous buttons */
+        // .prev,
+        // .next {
+        //     cursor: pointer;
+        //     // position: relative;
+        //     top: 60%;
+        //     width: auto;
+        //     // padding: 16px;
+        //     // margin-top: -22px;
+        //     color: #070404;
+        //     // font-weight: bold;
+        //     font-size: 32px;
+        //     transition: 0.6s ease;
+        //     border-radius: 0 3px 3px 0;
+        //     user-select: none;
+        //     text-decoration: none;
+        //     padding-left: 20px;
+        //     padding-right: 20px;
+        // }
+
+        // /* Position the "next button" to the right */
+        // .next {
+        //     right: 0;
+        //     // border-radius: 3px 0 0 3px;
+        // }
+        // .prev {
+        //     left: -80%;
+        //     // border-radius: 3px 0 0 3px;
+        // }
+
+        // /* On hover, add a black background color with a little bit see-through */
+        // .prev:hover,
+        // .next:hover {
+        //     // background-color: rgba(0, 0, 0, 0.8);
+        // }
+    }
+}
