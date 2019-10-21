@@ -103,6 +103,7 @@ img {
         // flex-direction: column;
         justify-content: center;
         align-content: flex-start;
+
         .text {
             width: 45%;
             // border: 3px solid blue;
@@ -114,11 +115,15 @@ img {
             text-align: left;
             line-height: 25px; //200%; //20px;
             font-family: Helvetica;
+            font-size: 16px;
             opacity: 75%;
             .heading {
                 opacity: 100%;
                 font-weight: bold;
             }
+        }
+        .empty {
+            width: 30%;
         }
 
         .image {

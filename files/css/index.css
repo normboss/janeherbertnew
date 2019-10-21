@@ -113,6 +113,11 @@ img {
   border-radius: 3px 0 0 3px;
 }
 
+.artwork-container .artwork .prev:hover,
+.artwork-container .artwork .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 .artwork-container .artwork .next-prev {
   background-color: #e9eaefd8;
   color: lightgrey;
