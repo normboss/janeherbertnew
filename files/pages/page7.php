@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
 
     <link href="../css/page7.css" media="screen" rel="stylesheet" type="text/css">
+    <!-- <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css"> -->
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="./files/images/favicon-16x16.png">
 </head>
@@ -35,7 +36,7 @@
             <!-- <div>
                 <a class="prev" href="../pages/page6.php">&#10094;</a>
             </div> -->
-            <div class="text emtpy"></div>
+            <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Painting on location</div>
                 Some pieces are finished on site others are finished in my studio.

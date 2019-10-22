@@ -35,15 +35,53 @@
 }
 
 .footer {
+    // border: 3px solid blue;
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    height: 40px;
+    height: auto; //40px;
     background-color: #E9EAEFD8;
     display: flex;
     padding-top: 10px;
+    padding-bottom: 20px;
     font-size: 13px;
     opacity: 50%;
     justify-content: space-around;
+
+
+    @include max-mixin(550px) {
+        // height: 500px;
+        width: 100%;
+        display: grid;
+        // grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto auto;
+        // grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        // padding-bottom: 0;
+
+        .box {
+            // border: 3px solid red;
+            // width: 200px;
+            height: auto; //50px;
+            text-align: center;
+        }
+        .home {
+            grid-column: 1 / span 1;
+            grid-row: 1 / span 1;
+        }
+        .contact {
+            grid-column: 2 / span 1;
+            grid-row: 1 / span 1;
+        }
+        .rights {
+            grid-column: 1 / span 2;
+            grid-row: 2 / span 1;
+        }
+        .email {
+            grid-column: 1 / span 2;
+            grid-row: 3 / span 1;
+        }
+    }
 }
 
