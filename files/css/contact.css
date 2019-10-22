@@ -101,11 +101,11 @@ body {
 }
 
 .main .content {
+  border: 3px solid red;
   width: 100%;
   max-width: 1000px;
   background-color: #E9EAEFD8;
   margin: 0 auto;
-  padding-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -113,9 +113,19 @@ body {
       justify-content: space-around;
 }
 
+.main .content .image {
+  padding-bottom: 25px;
+}
+
 .main .content .image img {
   max-width: 400px;
   width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .main .content .image {
+    text-align: center;
+  }
 }
 
 .main .content .text {
@@ -148,9 +158,20 @@ body {
 .main .content .text .lower {
   font-size: 16px;
   line-height: 26px;
+  padding-top: 20px;
 }
 
 .main .content .text .lower .heading {
   font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .main .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 0px;
+  }
 }
 /*# sourceMappingURL=contact.css.map */

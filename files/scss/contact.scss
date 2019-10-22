@@ -15,12 +15,12 @@ body {
     margin: 0 auto;
 
     .content {
-        // border: 3px solid red;
+        border: 3px solid red;
         width: 100%;
         max-width: 1000px;
         background-color: #E9EAEFD8;
         margin: 0 auto;
-        padding-bottom: 50px;;
+        // padding-bottom: 50px;
         display: flex;
         justify-content: space-around;
 
@@ -30,6 +30,10 @@ body {
                 // width: 300px;
                 width: 100%;
             }
+            @include max-mixin(600px) {
+                text-align: center;
+            }
+            padding-bottom: 25px;
         }
         .text {
             // border: 3px solid red;
@@ -55,9 +59,16 @@ body {
                 // border: 3px solid red;
                 font-size: 16px;
                 line-height: 26px;
+                padding-top: 20px;
                 .heading {
                     font-weight: bold;
                 }
+            }
+        }
+        @include max-mixin(600px) {
+            flex-direction: column;
+            padding-bottom: 0px;
+            .lower {
             }
         }
     }
