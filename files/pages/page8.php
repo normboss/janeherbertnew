@@ -36,7 +36,9 @@
             <div class="text empty"></div>
             <div class="text">
                 <div class="heading">On Lookout Rock</div>
-                Acrylic on canvasboard 8” x 10” $400. USD Changing light forces me to work quickly.
+                Acrylic on canvasboard 8&#x2033; x 10&#x2033; $400&nbsp;USD<br>
+                <div class="spacer10"></div>
+                 Changing light forces me to work quickly.
             </div>
             <!-- <div class="text"></div> -->
             <br>

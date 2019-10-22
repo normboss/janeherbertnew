@@ -28,7 +28,7 @@
                 <div class="upper">
                     <div>Contact Information:</div>
                     <br>
-                    <div>Jane@JaneHerbert.com</div>
+                    <div>viewscaper@gmail.com</div>
                     <br>
                     <div>(207) 563-6208</div>
                     <br>

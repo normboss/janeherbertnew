@@ -35,7 +35,9 @@
             <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Side LIght</div>
-                Acrylic on linen, 24 x 36 inches $1500 USD It’s always hard to pack up my paints at moments like this one on little Morse Island in Friendship, Maine.
+                Acrylic on linen, 24&#x2033; x 36&#x2033; $1500&nbsp;USD<br>
+                <div class="spacer10"></div>
+                It’s always hard to pack up my paints at moments like this one on little Morse Island in Friendship, Maine.
             </div>
             <!-- <div class="text empty"></div> -->
             <br>

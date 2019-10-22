@@ -36,7 +36,9 @@
             <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Stillness</div>
-                Acrylic on canvas, 16” x 20” $900. USD Winter down east can be arresting. This scene in Hancock had a reassuring effect upon me.
+                Acrylic on canvas, 16&#x2033; x 20&#x2033; $900&nbsp;USD<br>
+                <div class="spacer10"></div>
+                 Winter down east can be arresting. This scene in Hancock had a reassuring effect upon me.
             </div>
             <!-- <div class="text"></div> -->
             <br>

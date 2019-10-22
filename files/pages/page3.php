@@ -34,7 +34,9 @@
             <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Vespers</div>
-                Acrylic on canvas, 20 x 30 inches. $1500 USD Painted after a late day walk with fellow artist and friend Pam Cabanas along with her dog Jessie on Hawthorne Point in Cushing, Maine.
+                Acrylic on canvas, 20&#x2033; x 30&#x2033; $1500&nbsp;USD<br>
+                <div class="spacer10"></div>
+                 Painted after a late day walk with fellow artist and friend Pam Cabanas along with her dog Jessie on Hawthorne Point in Cushing, Maine.
             </div>
             <!-- <div class="text"></div> -->
             <br>

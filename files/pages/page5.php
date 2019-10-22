@@ -36,7 +36,9 @@
             <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Ubiquity</div>
-                Acrylic on paperboard, 18 x 24 “ $900. USD Done on location on an afternoon with a rising tide. Fog included me in the hush of the sacred.
+                Acrylic on paperboard, 18&#x2033; x 24&#x2033; $900&nbsp;USD<br>
+                <div class="spacer10"></div>
+                 Done on location on an afternoon with a rising tide. Fog included me in the hush of the sacred.
             </div>
             <!-- <div class="text"></div> -->
             <br>

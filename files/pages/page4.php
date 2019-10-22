@@ -36,7 +36,9 @@
             <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Eagle over Hatchet Cove</div>
-                Acrylic on canvas, 18 x 36 inches $1500. USD A lone eagle in flight added to the magic of a misty day.
+                Acrylic on canvas, 18&#x2033; x 36&#x2033; $1500&nbsp;USD<br>
+                <div class="spacer10"></div>
+                 A lone eagle in flight added to the magic of a misty day.
             </div>
             <!-- <div class="text"></div> -->
             <br>

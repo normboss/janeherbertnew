@@ -36,7 +36,9 @@
 
             <div class="text index">
                 <div class="heading">Low Pressure, Appleton Ridge</div>
-                Acrylic on Linen, 18 x 36 inches $1500. USD Spring rains brought a verdant lushness to the farms of Appleton. I included the hawk I saw briefly gliding down to the trees.
+                Acrylic on Linen, 18&#x2033; x 36&#x2033; $1500&nbsp;USD<br>
+                <div class="spacer10"></div>
+                Spring rains brought a verdant lushness to the farms of Appleton. I included the hawk I saw briefly gliding down to the trees.
             </div>
             <br>
             <!-- <a class="next" href="./files/pages/page2.php">&#10095;</a> -->

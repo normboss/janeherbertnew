@@ -34,7 +34,9 @@
             <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Dyer River Marsh</div>
-                Acrylic on canvas, 16” x 20” $700.ISD One of the bucolic scenes of Sheepscott begun on location and finished in my studio.
+                Acrylic on canvas, 16&#x2033; x 20&#x2033; $700&nbsp;USD<br>
+                <div class="spacer10"></div>
+                 One of the bucolic scenes of Sheepscott begun on location and finished in my studio.
             </div>
             <!-- <div class="text"></div> -->
             <br>
