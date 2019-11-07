@@ -57,14 +57,14 @@
   width: 100%;
   margin: 0 auto;
   height: auto;
-  background-color: #e9eaefd8;
+  background-color: rgba(233, 234, 239, 0.85);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding-top: 10px;
   padding-bottom: 20px;
   font-size: 13px;
-  opacity: 50%;
+  opacity: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -189,7 +189,7 @@ img {
   position: relative;
   top: 0;
   color: darkgrey;
-  opacity: 5%;
+  opacity: 100%;
   font-weight: bold;
   font-size: 32px;
   -webkit-transition: 0.6s ease;
@@ -243,12 +243,12 @@ img {
 }
 
 .artwork-container .artwork .next-prev {
-  background-color: #e9eaefd8;
+  background-color: rgba(233, 234, 239, 0.85);
 }
 
 .artwork-container .text-section {
   height: auto;
-  background-color: #e9eaefd8;
+  background-color: rgba(233, 234, 239, 0.85);
   padding-bottom: 10px;
   margin-top: -25px;
   display: -webkit-box;
@@ -278,7 +278,7 @@ img {
   line-height: 25px;
   font-family: Helvetica;
   font-size: 16px;
-  opacity: 75%;
+  opacity: 100%;
 }
 
 @media screen and (max-width: 500px) {

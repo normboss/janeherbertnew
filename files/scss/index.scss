@@ -54,7 +54,7 @@ img {
             // padding: 16px;
             // margin-top: -22px;
             color: darkgrey; //#070404;
-            opacity: 50%;
+            opacity: 100%;
             font-weight: bold;
             // border: 2px solid grey;
             font-size: 32px;
@@ -99,9 +99,9 @@ img {
             background-color: rgba(0, 0, 0, 0.8);
         }
         .next-prev {
-            background-color: #e9eaefd8;
+            background-color: $backcolor; //#e9eaefd8;
             color: lightgrey; //#070404;
-            opacity: 5%;
+            opacity: 100%; //5%;
             font-weight: bold;
         }
     }
@@ -110,7 +110,7 @@ img {
         // position: relative;
         // border: 3px solid red;
         height: auto; //230px;
-        background-color: #e9eaefd8;
+        background-color: $backcolor; // #e9eaefd8;
         // padding-top: 16px;
         padding-bottom: 10px;
         margin-top: -20px;
@@ -136,7 +136,7 @@ img {
             text-align: left;
             line-height: 25px; //200%; //20px;
             font-family: Helvetica;
-            opacity: 75%;
+            opacity: 100%;
             .heading {
                 opacity: 100%;
                 font-weight: bold;
