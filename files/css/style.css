@@ -237,8 +237,13 @@ img {
   border-radius: 3px 0 0 3px;
 }
 
+.artwork-container .artwork .prev:hover,
+.artwork-container .artwork .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 .artwork-container .artwork .next-prev {
-  width: 100%;
+  background-color: rgba(233, 234, 239, 0.85);
 }
 
 .artwork-container .text-section {
