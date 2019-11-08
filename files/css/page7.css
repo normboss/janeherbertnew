@@ -217,7 +217,7 @@ img {
   position: relative;
   top: -150px;
   color: darkgrey;
-  opacity: 5%;
+  opacity: 100%;
   font-weight: bold;
   font-size: 32px;
   -webkit-transition: 0.6s ease;
@@ -280,6 +280,7 @@ img {
 
 .artwork-container .artwork .next-prev {
   width: 100%;
+  opacity: 100%;
 }
 
 .artwork-container .text-section {
