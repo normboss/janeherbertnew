@@ -142,6 +142,8 @@ img {
             padding-left: 35px;
             padding-right: 20px;
             text-align: left;
+
+            
             @include max-mixin(500px) {
                 padding-left: 10px;
                 padding-right: 0;

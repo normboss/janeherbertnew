@@ -48,6 +48,13 @@ $backcolor: rgba(233, 234, 239, 0.85);
         margin: 8px;
         font-size: 15px;
         color: red;
+        a {
+            font-family: Helvetica;
+            text-decoration: none;
+            font-weight: bold;
+            color: #343638;
+            font-size: 11px;
+        }
         @include max-mixin(400px) {
             font-size: 12px;
         }
@@ -72,9 +79,15 @@ $backcolor: rgba(233, 234, 239, 0.85);
     display: flex;
     padding-top: 10px;
     padding-bottom: 20px;
+    font-family: Helvetica;
     font-size: 13px;
     opacity: 100%;
     justify-content: space-around;
+    a {
+        text-decoration: none;
+        color: #050505;
+    }
+    color: #050505;
 
     @include max-mixin(550px) {
         // height: 500px;
@@ -108,6 +121,9 @@ $backcolor: rgba(233, 234, 239, 0.85);
         .email {
             grid-column: 1 / span 2;
             grid-row: 3 / span 1;
+            a {
+                text-decoration: none;
+            }
         }
     }
 }

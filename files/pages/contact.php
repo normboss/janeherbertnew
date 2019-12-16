@@ -28,7 +28,7 @@
                 <div class="upper">
                     <div>Contact Information:</div>
                     <br>
-                    <div>viewscaper@gmail.com</div>
+                    <div><a href="mailto:viewscaper@gmail.com">viewscaper@gmail.com</a></div>
                     <br>
                     <div>(207) 563-6208</div>
                     <br>

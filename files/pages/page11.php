@@ -13,46 +13,41 @@
 </head>
 
 <body>
+
+
     <?php
     require '../includes/header.php';
     ?>
 
     <div class="artwork-container">
         <div class="artwork">
-            <!-- <div class="numbertext">2 / 10</div> -->
-            <img src="../images/side_light_herbert.png" style="width:100%">
+            <!-- <div class="numbertext">10 / 10</div> -->
+            <img src="../images/studio.png" style="width:100%">
             <div class="next-prev">
-                <a class="prev" href="../../index.php">&#10094;</a>
-                <a class="next" href="../pages/page3.php">&#10095;</a>
+                <a class="prev" href="../pages/page10.php">&#10094;</a>
+                <a class="next" href="../../index.php">&#10095;</a>
             </div>
         </div>
 
-
         <div class="text-section">
             <!-- <div>
-                <a class="prev" href="../../index.php">&#10094;</a>
+                <a class="prev" href="../pages/page9.php">&#10094;</a>
             </div> -->
             <div class="text empty"></div>
             <div class="text">
-                <div class="heading">Side LIght</div>
-                Acrylic on linen, 24&#x2033; x 36&#x2033; $2500&nbsp;USD<br>
-                <div class="spacer10"></div>
-                It’s always hard to pack up my paints at moments like this one on little Morse Island in Friendship, Maine.
+                <div class="heading">I welcome visitors to my studio</div>
+                Here is where I work on large pieces and paintings started outside during warm weather. Contact me to arrange for a visit.
             </div>
-            <!-- <div class="text empty"></div> -->
+            <!-- <div class="text"></div> -->
             <br>
             <!-- <div>
-                <a class="next" href="../pages/page3.php">&#10095;</a>
+                <a class="next" href="../../index.php">&#10095;</a>
             </div> -->
 
         </div>
         <?php
         require '../includes/footer.php';
         ?>
-
-    </div>
-    <br>
-
 
 </body>
 

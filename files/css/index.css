@@ -35,6 +35,14 @@
   color: red;
 }
 
+.header .header-text a {
+  font-family: Helvetica;
+  text-decoration: none;
+  font-weight: bold;
+  color: #343638;
+  font-size: 11px;
+}
+
 @media screen and (max-width: 400px) {
   .header .header-text {
     font-size: 12px;
@@ -63,10 +71,17 @@
   display: flex;
   padding-top: 10px;
   padding-bottom: 20px;
+  font-family: Helvetica;
   font-size: 13px;
   opacity: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  color: #050505;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #050505;
 }
 
 @media screen and (max-width: 550px) {
@@ -116,6 +131,9 @@
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
     grid-row: 3 / span 1;
+  }
+  .footer .email a {
+    text-decoration: none;
   }
 }
 
