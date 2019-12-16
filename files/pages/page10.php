@@ -25,7 +25,7 @@
             <img src="../images/studio.png" style="width:100%">
             <div class="next-prev">
                 <a class="prev" href="../pages/page9.php">&#10094;</a>
-                <a class="next" href="../pages/page11.php">&#10095;</a>
+                <a class="next" href="../../index.php">&#10095;</a>
             </div>
         </div>
 
