@@ -30,7 +30,8 @@
 }
 
 .header .header-text {
-  margin: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   font-size: 15px;
   color: red;
 }
@@ -54,9 +55,17 @@
   font-size: 36px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .header .header-logo {
+    padding-top: 5px;
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .header .header-logo {
+    padding-top: 5px;
+    font-size: 20px;
   }
 }
 

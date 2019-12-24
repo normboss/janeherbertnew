@@ -44,8 +44,11 @@ $backcolor: rgba(233, 234, 239, 0.85);
     justify-content: space-around;
     padding-top: 15px;
     .header-text {
+        // border: 3px solid red;
         // padding-right: 25px;
-        margin: 8px;
+        // margin: 8px;
+        margin-top: 8px;
+        margin-bottom: 8px;
         font-size: 15px;
         color: red;
         a {
@@ -60,10 +63,16 @@ $backcolor: rgba(233, 234, 239, 0.85);
         }
     }
     .header-logo {
+        // border: 3px solid red;
         font-family: "Comfortaa", cursive;
         font-size: 36px;
-        @include max-mixin(400px) {
+        @include max-mixin(420px) {
+            padding-top: 5px;
             font-size: 24px;
+        }
+        @include max-mixin(340px) {
+            padding-top: 5px;
+            font-size: 20px;
         }
     }
 }
