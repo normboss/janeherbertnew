@@ -57,7 +57,10 @@ $backcolor: rgba(233, 234, 239, 0.85);
             font-weight: bold;
             color: #343638;
             font-size: 11px;
-        }
+            @include max-mixin(400px) {
+                font-size: 8px;
+            }
+            }
         @include max-mixin(400px) {
             font-size: 12px;
         }
@@ -66,13 +69,13 @@ $backcolor: rgba(233, 234, 239, 0.85);
         // border: 3px solid red;
         font-family: "Comfortaa", cursive;
         font-size: 36px;
-        @include max-mixin(420px) {
+        @include max-mixin(450px) {
             padding-top: 5px;
             font-size: 24px;
         }
-        @include max-mixin(340px) {
+        @include max-mixin(350px) {
             padding-top: 5px;
-            font-size: 20px;
+            font-size: 18px;
         }
     }
 }
