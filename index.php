@@ -2,9 +2,12 @@
 <html>
 
 <head>
+<?php
+    require './files/includes/globalSiteTag.html';
+    ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Jane Herbert</title>
+    <title>Low Pressure, Appleton Ridge - Jane Herbert</title>
     <meta charset="UTF-8">
 
     <link href="./files/css/index.css" media="screen" rel="stylesheet" type="text/css">

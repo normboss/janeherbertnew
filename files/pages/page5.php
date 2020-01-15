@@ -2,9 +2,12 @@
 <html>
 
 <head>
+    <?php
+       require '../includes/globalSiteTag.html';
+    ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Jane Herbert</title>
+    <title>Ubiquity - Jane Herbert</title>
     <meta charset="UTF-8">
 
     <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
