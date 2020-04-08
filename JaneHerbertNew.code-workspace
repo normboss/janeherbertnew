@@ -28,7 +28,7 @@
         "editor.minimap.renderCharacters": false,
         "editor.minimap.enabled": false,
         "workbench.colorTheme": "Default Light+",
-        "window.zoomLevel": 3,
+        "window.zoomLevel": 2,
         "editor.hover.enabled": false,
         "editor.hover.sticky": false,
         "explorer.confirmDragAndDrop": false,

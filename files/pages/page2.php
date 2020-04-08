@@ -25,7 +25,7 @@
             <!-- <div class="numbertext">2 / 10</div> -->
             <img src="../images/side_light_herbert.png" style="width:100%">
             <div class="next-prev">
-                <a class="prev" href="../../index.php">&#10094;</a>
+                <a class="prev" href="../pages/home.php">&#10094;</a>
                 <a class="next" href="../pages/page3.php">&#10095;</a>
             </div>
         </div>

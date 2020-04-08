@@ -3,7 +3,7 @@
 
 <head>
     <?php
-       require '../includes/globalSiteTag.html';
+    require '../includes/globalSiteTag.html';
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,9 +26,9 @@
         <div class="artwork">
             <img src="../images/december_twilight.png" style="width:60%">
             <div class="exhibits">
-                <div class="text1">Special Winter Events</div>
-                <div class="spacer20"></div>
-                <div class="text2">Maine Coastal Islands Art Gallery </div>
+                <div class="text1">Special Events</div>
+                <!-- <div class="spacer20"></div> -->
+                <!-- <div class="text2">Maine Coastal Islands Art Gallery </div>
                 <div class="text2">National Wildlife Refuge</div>
                 <div class="">9 Water Street</div>
                 <div class="">Rockland, Maine 04841 </div>
@@ -46,7 +46,23 @@
                 <div class="">15 Epps Street </div>
                 <div class="">Peaks Island, Portland, Maine </div>
                 <div class="">Winter Hours </div>
-                <div class="">Friday, Saturday, Sunday 10 - 3 </div>
+                <div class="">Friday, Saturday, Sunday 10 - 3 </div> -->
+
+                <br>
+                <div class="text2">Corona Virus Impacts Everyone</div>
+                <p>
+                    My heart joins with you in commemorating the personal and collective
+                    grief we share as well as the gratitude we feel for each other as we
+                    each do our part to soften the impact of the pandemic.
+                </p>
+                <div class="event">
+                    <span class="text4">August 2020 </span><br>
+                    <span class="text0">Solo Show</span><br>
+                    <span class="text4">Richard Boyd Art Gallery</span><br>
+                    <span class="tex5">15 Epps Street</span><br>
+                    <span class="tex5">Peaks Island, Portland, Maine</span><br>
+                    <span class="tex5">August Hours 10 - 5</span><br>
+                </div>
             </div>
         </div>
 

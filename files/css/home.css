@@ -158,8 +158,9 @@
 }
 
 body {
-  font-family: Helvetica;
+  font-family: Verdana, sans-serif;
   margin: 0;
+  margin: 0 auto;
 }
 
 .my-slides {
@@ -172,152 +173,107 @@ img {
 
 /* Slideshow container */
 .artwork-container {
-  background-color: #E9EAEFD8;
-  width: 100%;
   max-width: 1400px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  width: 100%;
+  position: relative;
   margin: auto;
+  /* Position the "next button" to the right */
 }
 
 .artwork-container .artwork {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 100%;
-}
-
-@media screen and (max-width: 950px) {
-  .artwork-container .artwork {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .artwork-container .artwork {
-    padding-left: 0;
-    padding-right: 0;
-  }
+  /* Caption text */
+  position: relative;
+  /* Number text (1/3 etc) */
+  /* Next & previous buttons */
 }
 
 .artwork-container .artwork img {
-  width: 80%;
-  height: auto;
+  height: 85vh;
 }
 
-@media screen and (max-width: 950px) {
-  .artwork-container .artwork img {
-    display: none;
-  }
-}
-
-.artwork-container .artwork .exhibits {
-  padding-top: 25px;
-  width: 30%;
-  margin: 0 auto;
-  text-align: center;
-  color: white;
+.artwork-container .artwork .text {
+  color: #f2f2f2;
   font-size: 15px;
-  line-height: 19px;
-  border: #184E3B 5px solid;
-  background-color: #78A282;
-  font-family: Helvetica;
+  padding: 8px 12px;
+  bottom: 8px;
+  width: 100%;
   text-align: center;
 }
 
-@media screen and (max-width: 950px) {
-  .artwork-container .artwork .exhibits {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .artwork-container .artwork .exhibits {
-    width: 90%;
-  }
-}
-
-.artwork-container .artwork .exhibits .text0 {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.artwork-container .artwork .exhibits .text1 {
-  font-weight: bold;
-  font-size: 19px;
-}
-
-.artwork-container .artwork .exhibits .text2 {
-  font-weight: bold;
-  font-size: 15px;
-}
-
-.artwork-container .artwork .exhibits .text3 {
+.artwork-container .artwork .numbertext {
+  color: #f2f2f2;
   font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-.artwork-container .artwork .exhibits .text4 {
-  font-size: 18px;
+.artwork-container .artwork .map-next {
   font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top: 45%;
+  left: 90%;
 }
 
-.artwork-container .artwork .exhibits .text5 {
-  font-size: 18px;
-  font-weight: normal;
+.artwork-container .artwork .map-next a {
+  color: lightgrey;
+  text-decoration: none;
 }
 
-.artwork-container .artwork .exhibits p {
-  padding: 0px 40px;
-  margin-top: 1px;
-  font-size: 12px;
-  line-height: 1.5;
+.artwork-container .artwork .map-prev {
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top: 45%;
+  left: 10%;
 }
 
-.artwork-container .artwork .exhibits .event {
-  padding: 25px;
-  line-height: 1.5;
+.artwork-container .artwork .map-prev a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.artwork-container .next {
+  right: -88%;
+  border-radius: 3px 0 0 3px;
+}
+
+.artwork-container .prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
 }
 
 .artwork-container .text-section {
-  padding-top: 35px;
   height: auto;
   background-color: rgba(233, 234, 239, 0.85);
   padding-bottom: 10px;
+  padding-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-line-pack: start;
       align-content: flex-start;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 800px) {
   .artwork-container .text-section {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .artwork-container .text-section {
-    min-width: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
 .artwork-container .text-section .text {
-  width: 80%;
+  width: 33%;
   color: black;
   padding-bottom: 20px;
   padding-left: 35px;
@@ -325,16 +281,8 @@ img {
   text-align: left;
   line-height: 25px;
   font-family: Helvetica;
-  font-size: 16px;
   opacity: 100%;
-}
-
-@media screen and (max-width: 500px) {
-  .artwork-container .text-section .text {
-    padding-left: 10px;
-    padding-right: 0;
-    width: 100%;
-  }
+  /* Next & previous buttons */
 }
 
 .artwork-container .text-section .text .heading {
@@ -342,11 +290,20 @@ img {
   font-weight: bold;
 }
 
-.artwork-container .text-section .empty {
-  width: 30%;
+@media screen and (max-width: 800px) {
+  .artwork-container .text-section .text {
+    width: 80%;
+  }
 }
 
-.artwork-container .text-section .image {
+@media screen and (max-width: 800px) {
+  .artwork-container .text-section .text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.artwork-container .text-section .text .image {
   width: 140px;
   color: black;
   -ms-flex-item-align: center;
@@ -354,4 +311,19 @@ img {
       align-self: center;
   min-width: 130px;
 }
-/*# sourceMappingURL=exhibits.css.map */
+
+@media screen and (max-width: 800px) {
+  .artwork-container .text-section .text .empty {
+    display: none;
+  }
+  .artwork-container .text-section .text .text {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .artwork-container .text-section .text {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=home.css.map */
