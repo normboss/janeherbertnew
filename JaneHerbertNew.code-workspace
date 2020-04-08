@@ -29,7 +29,6 @@
         "editor.minimap.enabled": false,
         "workbench.colorTheme": "Default Light+",
         "window.zoomLevel": 3,
-        "search.location": "panel",
         "editor.hover.enabled": false,
         "editor.hover.sticky": false,
         "explorer.confirmDragAndDrop": false,

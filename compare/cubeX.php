@@ -95,10 +95,9 @@ for webgl-utils, m3, m4, and webgl-lessons-ui.
         // Create a texture.
         var texture = gl.createTexture();
         gl.bindTexture(gl.TEXTURE_2D, texture);
-
         // Fill the texture with a 1x1 blue pixel.
-        gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, 1, 1, 0, gl.RGBA, gl.UNSIGNED_BYTE, new Uint8Array([0, 0, 255, 255]));
-
+        gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, 1, 1, 0, gl.RGBA, gl.UNSIGNED_BYTE,
+            new Uint8Array([0, 0, 255, 255]));
         // Asynchronously load an image
         var image = new Image();
         image.src = "../images/merge_from_ofoct.jpg";
@@ -159,10 +158,8 @@ for webgl-utils, m3, m4, and webgl-lessons-ui.
             gl.enable(gl.DEPTH_TEST);
 
             // Animate the rotation
-            // modelYRotationRadians += -0.7 * deltaTime;
-            // modelXRotationRadians += -0.4 * deltaTime;
-            modelYRotationRadians += -0.4 * deltaTime;
-            modelXRotationRadians += -0.3 * deltaTime;
+            modelYRotationRadians += -0.7 * deltaTime;
+            modelXRotationRadians += -0.4 * deltaTime;
 
             // Clear the canvas AND the depth buffer.
             gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
@@ -182,7 +179,8 @@ for webgl-utils, m3, m4, and webgl-lessons-ui.
             var normalize = false; // don't normalize the data
             var stride = 0; // 0 = move forward size * sizeof(type) each iteration to get the next position
             var offset = 0; // start at the beginning of the buffer
-            gl.vertexAttribPointer(positionLocation, size, type, normalize, stride, offset);
+            gl.vertexAttribPointer(
+                positionLocation, size, type, normalize, stride, offset);
 
             // Turn on the teccord attribute
             gl.enableVertexAttribArray(texcoordLocation);
