@@ -25,11 +25,24 @@
     <div class="artwork-container">
         <div class="artwork">
             <!-- <div class="numbertext">3 / 10</div> -->
-            <img src="../images/on_lookout_rock_herbert.png" style="width:100%">
-            <div class="next-prev">
-                <a class="prev" href="../pages/page7.php">&#10094;</a>
+            <img src="../images/on_lookout_rock_herbert.jpg" usemap="#map" style="width:100%">
+            <!-- 871 x 694 -->
+
+            <map name="map">
+                <area shape="rect" coords="436,0,871,694" alt="" href="../pages/page9.php">
+                <area shape="rect" coords="0,0,435,694" alt="" href="../pages/page7.php">
+            </map>
+
+            <div class="map-next">
+                <!-- &#10095; -->
                 <a class="next" href="../pages/page9.php">&#10095;</a>
             </div>
+
+            <div class="map-prev">
+                <!-- &#10094; -->
+                <a class="prev" href="../pages/page7.php">&#10094;</a>
+            </div>
+
         </div>
 
         <div class="text-section">

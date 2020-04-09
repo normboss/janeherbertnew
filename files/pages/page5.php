@@ -25,17 +25,27 @@
     <div class="artwork-container">
         <div class="artwork">
             <div class="numbertext">3 / 10</div>
-            <img src="../images/ubiquity.png" style="width:100%">
-            <div class="next-prev">
-                <a class="prev" href="../pages/page4.php">&#10094;</a>
+            <img src="../images/ubiquity.jpg" usemap="#map" style="width:100%">
+            <!-- 979 x 720 -->
+
+            <map name="map">
+                <area shape="rect" coords="490,0,979,720" alt="" href="../pages/page6.php">
+                <area shape="rect" coords="0,0,489,720" alt="" href="../pages/page4.php">
+            </map>
+
+            <div class="map-next">
+                <!-- &#10095; -->
                 <a class="next" href="../pages/page6.php">&#10095;</a>
             </div>
+
+            <div class="map-prev">
+                <!-- &#10094; -->
+                <a class="prev" href="../pages/page4.php">&#10094;</a>
+            </div>
+
         </div>
 
         <div class="text-section">
-            <!-- <div>
-                <a class="prev" href="../pages/page4.php">&#10094;</a>
-            </div> -->
             <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Ubiquity</div>
@@ -43,11 +53,7 @@
                 <div class="spacer10"></div>
                  Done on location on an afternoon with a rising tide. Fog included me in the hush of the sacred.
             </div>
-            <!-- <div class="text"></div> -->
             <br>
-            <!-- <div>
-                <a class="next" href="../pages/page6.php">&#10095;</a>
-            </div> -->
 
         </div>
         <?php

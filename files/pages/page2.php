@@ -23,18 +23,27 @@
     <div class="artwork-container">
         <div class="artwork">
             <!-- <div class="numbertext">2 / 10</div> -->
-            <img src="../images/side_light_herbert.png" style="width:100%">
-            <div class="next-prev">
-                <a class="prev" href="../pages/home.php">&#10094;</a>
+            <!-- 1155 x 750 -->
+            <img src="../images/side_light_herbert.jpg" usemap="#map" style="width:100%">
+            
+            <map name="map">
+                <area shape="rect" coords="579,0,1150,750" alt="" href="../pages/page3.php">
+                <area shape="rect" coords="0,0,578,750" alt="" href="../pages/home.php">
+            </map>
+
+            <div class="map-next">
+                <!-- &#10095; -->
                 <a class="next" href="../pages/page3.php">&#10095;</a>
+            </div>
+
+            <div class="map-prev">
+                <!-- &#10094; -->
+                <a class="prev" href="../pages/home.php">&#10094;</a>
             </div>
         </div>
 
 
         <div class="text-section">
-            <!-- <div>
-                <a class="prev" href="../../index.php">&#10094;</a>
-            </div> -->
             <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Side LIght</div>
@@ -42,12 +51,7 @@
                 <div class="spacer10"></div>
                 It’s always hard to pack up my paints at moments like this one on little Morse Island in Friendship, Maine.
             </div>
-            <!-- <div class="text empty"></div> -->
             <br>
-            <!-- <div>
-                <a class="next" href="../pages/page3.php">&#10095;</a>
-            </div> -->
-
         </div>
         <?php
         require '../includes/footer.php';

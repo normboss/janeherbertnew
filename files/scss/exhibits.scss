@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     font-family: Helvetica;
     margin: 0;
@@ -20,7 +21,7 @@ $breakpoint2: 600;
     // border: 3px solid red;
     background-color: #E9EAEFD8;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     margin: auto;

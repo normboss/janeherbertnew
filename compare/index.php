@@ -20,7 +20,7 @@
 
         <div class="artwork">
             <!-- <div class="numbertext">1 / 10</div> -->
-            <img src="./files/images/low_pressure_appleton_ridge72px.png" style="width:100%">
+            <img src="./files/images/low_pressure_appleton_ridge72px.jpg" style="width:100%">
             <div class="next-prev">
                 <a class="prev" href="./files/pages/page10.php">&#10094;</a>
                 <a class="next" href="./files/pages/page2.php">&#10095;</a>
@@ -31,7 +31,7 @@
             <div class="text index">I am a life long painter living in Damariscotta, Maine. I respond to the wisdom I see in nature as I paint on location along the coast and hills of Maine. It is my pleasure to offer a preview of my work here.</div>
             <br>
             <div class="image">
-                <img src="./files/images/jane.png" style="width:100%">
+                <img src="./files/images/jane.jpg" style="width:100%">
             </div>
 
             <div class="text index">

@@ -24,7 +24,7 @@
 
     <div class="artwork-container">
         <div class="artwork">
-            <img src="../images/december_twilight.png" style="width:60%">
+            <img src="../images/december_twilight.jpg" style="width:60%">
             <div class="exhibits">
                 <div class="text1">Special Events</div>
                 <!-- <div class="spacer20"></div> -->

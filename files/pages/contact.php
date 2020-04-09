@@ -25,7 +25,7 @@
     <main class="main">
         <div class="content">
             <div class="image">
-                <img src="../images/camden_library.png" style="width:100%">
+                <img src="../images/camden_library.jpg" style="width:100%">
             </div>
             <div class="text">
                 <div class="upper">

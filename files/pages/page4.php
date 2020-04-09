@@ -25,17 +25,27 @@
     <div class="artwork-container">
         <div class="artwork">
             <div class="numbertext">3 / 10</div>
-            <img src="../images/eagle_nubbins_72.png" style="width:100%">
-            <div class="next-prev">
-                <a class="prev" href="../pages/page3.php">&#10094;</a>
+            <img src="../images/eagle_nubbins_72.jpg" usemap="#map" style="width:100%">
+            <!-- 1315 x 638 -->
+
+            <map name="map">
+                <area shape="rect" coords="579,0,1150,750" alt="" href="../pages/page5.php">
+                <area shape="rect" coords="0,0,578,750" alt="" href="../pages/page3.php">
+            </map>
+
+            <div class="map-next">
+                <!-- &#10095; -->
                 <a class="next" href="../pages/page5.php">&#10095;</a>
             </div>
+
+            <div class="map-prev">
+                <!-- &#10094; -->
+                <a class="prev" href="../pages/page3.php">&#10094;</a>
+            </div>
+
         </div>
 
         <div class="text-section">
-            <!-- <div>
-                <a class="prev" href="../pages/page3.php">&#10094;</a>
-            </div> -->
             <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Eagle over Hatchet Cove</div>

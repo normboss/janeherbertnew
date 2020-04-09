@@ -24,16 +24,25 @@
     <div class="artwork-container">
         <div class="artwork">
             <!-- <div class="numbertext">3 / 10</div> -->
-            <img src="../images/vespers_herbert2.png" style="width:100%">
-            <div class="next-prev">
-                <a class="prev" href="../pages/page2.php">&#10094;</a>
+            <img src="../images/vespers_herbert2.jpg" usemap="#map" style="width:100%">
+            <!-- 1137 x 747 -->
+            <map name="map">
+                <area shape="rect" coords="569,0,1137,747" alt="" href="../pages/page4.php">
+                <area shape="rect" coords="0,0,568,747" alt="" href="../pages/page2.php">
+            </map>
+
+            <div class="map-next">
+                <!-- &#10095; -->
                 <a class="next" href="../pages/page4.php">&#10095;</a>
             </div>
+
+            <div class="map-prev">
+                <!-- &#10094; -->
+                <a class="prev" href="../pages/page2.php">&#10094;</a>
+            </div>
+
         </div>
         <div class="text-section">
-            <!-- <div>
-            <a class="prev" href="../pages/page2.php">&#10094;</a>
-            </div> -->
             <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Vespers</div>
@@ -41,11 +50,7 @@
                 <div class="spacer10"></div>
                  Painted after a late day walk with fellow artist and friend Pam Cabanas along with her dog Jessie on Hawthorne Point in Cushing, Maine.
             </div>
-            <!-- <div class="text"></div> -->
             <br>
-            <!-- <div>
-            <a class="next" href="../pages/page4.php">&#10095;</a>
-            </div> -->
 
         </div>
         <?php

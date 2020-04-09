@@ -16,7 +16,7 @@
 }
 
 .header {
-  max-width: 1400px;
+  max-width: 1000px;
   margin: 0 auto;
   width: 100%;
   height: 65px;
@@ -76,7 +76,7 @@
 }
 
 .footer {
-  max-width: 1400px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   height: auto;
@@ -152,6 +152,32 @@
   }
 }
 
+.map-next {
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top: 45%;
+  left: 90%;
+}
+
+.map-next a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.map-prev {
+  font-weight: bold;
+  font-size: 40px;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+
+.map-prev a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -173,7 +199,7 @@ img {
 
 /* Slideshow container */
 .artwork-container {
-  max-width: 1400px;
+  max-width: 1000px;
   width: 100%;
   position: relative;
   margin: auto;
@@ -185,7 +211,6 @@ img {
   /* Caption text */
   position: relative;
   /* Number text (1/3 etc) */
-  /* Next & previous buttons */
 }
 
 .artwork-container .artwork img {
@@ -207,32 +232,6 @@ img {
   padding: 8px 12px;
   position: absolute;
   top: 0;
-}
-
-.artwork-container .artwork .map-next {
-  font-weight: bold;
-  font-size: 40px;
-  position: absolute;
-  top: 45%;
-  left: 90%;
-}
-
-.artwork-container .artwork .map-next a {
-  color: lightgrey;
-  text-decoration: none;
-}
-
-.artwork-container .artwork .map-prev {
-  font-weight: bold;
-  font-size: 40px;
-  position: absolute;
-  top: 45%;
-  left: 10%;
-}
-
-.artwork-container .artwork .map-prev a {
-  color: lightgrey;
-  text-decoration: none;
 }
 
 .artwork-container .next {

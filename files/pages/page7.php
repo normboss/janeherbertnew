@@ -26,13 +26,29 @@
     <div class="artwork-container">
         <div class="artwork">
             <!-- <div class="numbertext">3 / 10</div> -->
-            <img class="main-image" src="../images/jane_herbert_nubbins.png">
-            <img class="extra-image1" src="../images/jane-johns-bay-90.png">
+            <img class="main-image" usemap="#map" src="../images/jane_herbert_nubbins.jpg">
+            <img class="extra-image1" src="../images/jane-johns-bay-90.jpg">
+            <!-- 832 x 516 -->
+
             <img class="extra-image2" src="../images/jane_2016.png">
-            <div class="next-prev">
-                <a class="prev" href="../pages/page6.php">&#10094;</a>
+
+            <map name="map">
+                <area shape="rect" coords="416,0,832,516" alt="" href="../pages/page8.php">
+                <area shape="rect" coords="0,0,415,516" alt="" href="../pages/page6.php">
+            </map>
+
+            <div class="map-next">
+                <!-- &#10095; -->
                 <a class="next" href="../pages/page8.php">&#10095;</a>
             </div>
+
+            <div class="map-prev">
+                <!-- &#10094; -->
+                <a class="prev" href="../pages/page6.php">&#10094;</a>
+
+            </div>
+
+
         </div>
 
         <div class="text-section">

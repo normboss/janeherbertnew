@@ -18,7 +18,7 @@
 
         <div class="my-slides fade1">
             <div class="numbertext">1 / 10</div>
-            <img src="./files/images/low_pressure_appleton_ridge72px.png" style="width:100%">
+            <img src="./files/images/low_pressure_appleton_ridge72px.jpg" style="width:100%">
             <div class="footer">
                 <div class="text1">I am a life long painter living in Damariscotta, Maine. I respond to the wisdom I see in nature as I paint on location along the coast and hills of Maine. It is my pleasure to offer a preview of my work here.</div>
 <br>
@@ -34,13 +34,13 @@
 
         <div class="my-slides fade">
             <div class="numbertext">2 / 10</div>
-            <img src="./files/images/side_light_herbert.png" style="width:100%">
+            <img src="./files/images/side_light_herbert.jpg" style="width:100%">
             <div class="text">Side LIght</div>
         </div>
 
         <div class="my-slides fade">
             <div class="numbertext">3 / 10</div>
-            <img src="./files/images/vespers_herbert2.png" style="width:100%">
+            <img src="./files/images/vespers_herbert2.jpg" style="width:100%">
             <div class="text">Vespers</div>
             <!-- <div class="text">
             Acrylic on canvas, 20 x 30 inches. $1500 USD Painted after a late day walk with fellow artist and friend Pam Cabanas along with her dog Jessie on Hawthorne Point in Cushing, Maine.
@@ -48,43 +48,43 @@
         </div>
         <div class="my-slides fade">
             <div class="numbertext">4 / 10</div>
-            <img src="./files/images/eagle_nubbins_72.png" style="width:100%">
+            <img src="./files/images/eagle_nubbins_72.jpg" style="width:100%">
             <div class="text">Eagle over Hatchet Cove</div>
         </div>
 
         <div class="my-slides fade">
             <div class="numbertext">5 / 10</div>
-            <img src="./files/images/ubiquity.png" style="width:100%">
+            <img src="./files/images/ubiquity.jpg" style="width:100%">
             <div class="text">Ubiquity</div>
         </div>
 
         <div class="my-slides fade">
             <div class="numbertext">6 / 10</div>
-            <img src="./files/images/dyer_river_marsh.png" style="width:100%">
+            <img src="./files/images/dyer_river_marsh.jpg" style="width:100%">
             <div class="text">Dyer River Marsh</div>
         </div>
 
         <div class="my-slides fade">
             <div class="numbertext">7 / 10</div>
-            <img src="./files/images/jane_herbert_nubbins.png" style="width:100%">
+            <img src="./files/images/jane_herbert_nubbins.jpg" style="width:100%">
             <div class="text">Painting on location</div>
         </div>
 
         <div class="my-slides fade">
             <div class="numbertext">8 / 10</div>
-            <img src="./files/images/on_lookout_rock_herbert.png" style="width:100%">
+            <img src="./files/images/on_lookout_rock_herbert.jpg" style="width:100%">
             <div class="text">On Lookout Rock</div>
         </div>
 
         <div class="my-slides fade">
             <div class="numbertext">9 / 10</div>
-            <img src="./files/images/stillness.png" style="width:100%">
+            <img src="./files/images/stillness.jpg" style="width:100%">
             <div class="text">Stillness</div>
         </div>
 
         <div class="my-slides fade">
             <div class="numbertext">10 / 10</div>
-            <img src="./files/images/studio.png" style="width:100%">
+            <img src="./files/images/studio.jpg" style="width:100%">
             <div class="text">I welcome visitors to my studio</div>
         </div>
 
