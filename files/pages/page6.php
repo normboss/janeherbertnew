@@ -28,39 +28,29 @@
             <!-- 600 x 468 -->
 
             <map name="map">
-                <area shape="rect" coords="300,0,600,468" alt="" href="../pages/page7.php">
-                <area shape="rect" coords="0,0,299,468" alt="" href="../pages/page5.php">
+                <area shape="rect" coords="300,0,600,468" alt="" href="../pages/page7.php" title="Click image for Next">
+                <area shape="rect" coords="0,0,299,468" alt="" href="../pages/page5.php" title="Click image for Previous">
             </map>
 
-            <!-- <div class="map-next">
-                <a class="next" href="../pages/page7.php">&#10095;</a>
-            </div>
+            <a class="next" href="../pages/page7.php">&#10095;</a>
+            <a class="prev" href="../pages/page5.php">&#10094;</a>
 
-            <div class="map-prev">
-                <a class="prev" href="../pages/page5.php">&#10094;</a>
-            </div> -->
-            
-            <div class="text-section">
-                <!-- <div>
-                <a class="prev" href="../pages/page5.php">&#10094;</a>
-            </div> -->
-                <div class="text empty"></div>
-                <div class="text">
-                    <div class="heading">Dyer River Marsh</div>
-                    Acrylic on canvas, 16&#x2033; x 20&#x2033; $700&nbsp;USD<br>
-                    <div class="spacer10"></div>
-                    One of the bucolic scenes of Sheepscott begun on location and finished in my studio.
-                </div>
-                <!-- <div class="text"></div> -->
-                <br>
-                <!-- <div>
-                <a class="next" href="../pages/page7.php">&#10095;</a>
-            </div> -->
+        </div>
+    </div>
 
+    <div class="text-block">
+        <div class="text-section">
+            <div class="text">
+                <div class="heading">Dyer River Marsh</div>
+                Acrylic on canvas, 16&#x2033; x 20&#x2033; $700&nbsp;USD<br>
+                <div class="spacer10"></div>
+                One of the bucolic scenes of Sheepscott begun on location and finished in my studio.
             </div>
-            <?php
-            require '../includes/footer.php';
-            ?>
+        </div>
+    </div>
+    <?php
+    require '../includes/footer.php';
+    ?>
 
 </body>
 

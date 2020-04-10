@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
 
-
 $backcolor: rgba(233, 234, 239, 0.85);
 
 @mixin min-mixin($arg) {
@@ -33,7 +32,6 @@ $backcolor: rgba(233, 234, 239, 0.85);
     height: 5px;
 }
 
-
 .header {
     max-width: 1000px;
     margin: 0 auto;
@@ -60,7 +58,7 @@ $backcolor: rgba(233, 234, 239, 0.85);
             @include max-mixin(400px) {
                 font-size: 8px;
             }
-            }
+        }
         @include max-mixin(400px) {
             font-size: 12px;
         }
@@ -139,4 +137,38 @@ $backcolor: rgba(233, 234, 239, 0.85);
     }
 }
 
-@import 'maps';
+.artwork-container {
+    .artwork {
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            // font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    }
+}
+
+@import "maps";

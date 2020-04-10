@@ -3,7 +3,7 @@
 
 <head>
     <?php
-       require '../includes/globalSiteTag.html';
+    require '../includes/globalSiteTag.html';
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,36 +29,32 @@
             <!-- 979 x 720 -->
 
             <map name="map">
-                <area shape="rect" coords="490,0,979,720" alt="" href="../pages/page6.php">
-                <area shape="rect" coords="0,0,489,720" alt="" href="../pages/page4.php">
+                <area shape="rect" coords="490,0,979,720" alt="" href="../pages/page6.php" title="Click image for Next">
+                <area shape="rect" coords="0,0,489,720" alt="" href="../pages/page4.php" title="Click image for Previous">
             </map>
 
-            <div class="map-next">
-                <!-- &#10095; -->
-                <a class="next" href="../pages/page6.php">&#10095;</a>
-            </div>
-
-            <div class="map-prev">
-                <!-- &#10094; -->
-                <a class="prev" href="../pages/page4.php">&#10094;</a>
-            </div>
+            <a class="next" href="../pages/page6.php">&#10095;</a>
+            <a class="prev" href="../pages/page4.php">&#10094;</a>
 
         </div>
 
+    </div>
+
+    <div class="text-block">
         <div class="text-section">
-            <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Ubiquity</div>
                 Acrylic on paperboard, 18&#x2033; x 24&#x2033; $900&nbsp;USD<br>
                 <div class="spacer10"></div>
-                 Done on location on an afternoon with a rising tide. Fog included me in the hush of the sacred.
+                Done on location on an afternoon with a rising tide. Fog included me in the hush of the sacred.
             </div>
-            <br>
-
         </div>
-        <?php
-        require '../includes/footer.php';
-        ?>
+
+    </div>
+
+    <?php
+    require '../includes/footer.php';
+    ?>
 
 </body>
 

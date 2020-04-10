@@ -152,6 +152,49 @@
   }
 }
 
+.artwork-container .artwork {
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+}
+
+.artwork-container .artwork .prev,
+.artwork-container .artwork .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.artwork-container .artwork .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.artwork-container .artwork .prev:hover,
+.artwork-container .artwork .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+img[usemap] {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+
 .artwork-container .artwork img[usemap] {
   border: none;
   height: auto;
@@ -171,7 +214,7 @@
 .map-next a {
   color: lightgrey;
   color: black;
-  opacity: .5;
+  opacity: 0.5;
   text-decoration: none;
 }
 
@@ -188,7 +231,7 @@
   color: lightgrey;
   color: red;
   color: black;
-  opacity: .5;
+  opacity: 0.5;
   text-decoration: none;
 }
 
@@ -217,7 +260,6 @@ img {
   width: 100%;
   position: relative;
   margin: auto;
-  /* Position the "next button" to the right */
 }
 
 .artwork-container .artwork {
@@ -225,6 +267,10 @@ img {
   /* Caption text */
   position: relative;
   /* Number text (1/3 etc) */
+  /* Position the "next button" to the right */
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
 }
 
 .artwork-container .artwork img[usemap] {
@@ -255,17 +301,46 @@ img {
   top: 0;
 }
 
-.artwork-container .next {
-  right: -88%;
+.artwork-container .artwork .prev,
+.artwork-container .artwork .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.artwork-container .artwork .next {
+  right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-.artwork-container .prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
+.artwork-container .artwork .prev:hover,
+.artwork-container .artwork .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.artwork-container .text-section {
+.text-block {
+  max-width: 1000px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.text-block .text-section {
   height: auto;
   background-color: rgba(233, 234, 239, 0.85);
   padding-bottom: 10px;
@@ -281,7 +356,7 @@ img {
 }
 
 @media screen and (max-width: 800px) {
-  .artwork-container .text-section {
+  .text-block .text-section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -292,7 +367,7 @@ img {
   }
 }
 
-.artwork-container .text-section .text {
+.text-block .text-section .text {
   width: 33%;
   color: black;
   padding-bottom: 20px;
@@ -302,28 +377,27 @@ img {
   line-height: 25px;
   font-family: Helvetica;
   opacity: 100%;
-  /* Next & previous buttons */
 }
 
-.artwork-container .text-section .text .heading {
+.text-block .text-section .text .heading {
   opacity: 100%;
   font-weight: bold;
 }
 
 @media screen and (max-width: 800px) {
-  .artwork-container .text-section .text {
+  .text-block .text-section .text {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .artwork-container .text-section .text {
+  .text-block .text-section .text {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-.artwork-container .text-section .text .image {
+.text-block .text-section .text .image {
   width: 140px;
   color: black;
   -ms-flex-item-align: center;
@@ -333,16 +407,16 @@ img {
 }
 
 @media screen and (max-width: 800px) {
-  .artwork-container .text-section .text .empty {
+  .text-block .text-section .text .empty {
     display: none;
   }
-  .artwork-container .text-section .text .text {
+  .text-block .text-section .text .text {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .artwork-container .text-section .text {
+  .text-block .text-section .text {
     width: 80%;
   }
 }

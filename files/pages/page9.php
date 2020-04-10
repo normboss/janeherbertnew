@@ -3,7 +3,7 @@
 
 <head>
     <?php
-       require '../includes/globalSiteTag.html';
+    require '../includes/globalSiteTag.html';
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,43 +29,29 @@
             <!-- 1009 x 736 -->
 
             <map name="map">
-                <area shape="rect" coords="505,0,1009,736" alt="" href="../pages/page10.php">
-                <area shape="rect" coords="0,0,504,736" alt="" href="../pages/page8.php">
+                <area shape="rect" coords="505,0,1009,736" alt="" href="../pages/page10.php" title="Click image for Next">
+                <area shape="rect" coords="0,0,504,736" alt="" href="../pages/page8.php" title="Click image for Previous">
             </map>
 
-            <div class="map-next">
-                <!-- &#10095; -->
-                <a class="next" href="../pages/page10.php">&#10095;</a>
-            </div>
-
-            <div class="map-prev">
-                <!-- &#10094; -->
-                <a class="prev" href="../pages/page8.php">&#10094;</a>
-            </div>
+            <a class="next" href="../pages/page10.php">&#10095;</a>
+            <a class="prev" href="../pages/page8.php">&#10094;</a>
 
         </div>
+    </div>
 
+    <div class="text-block">
         <div class="text-section">
-            <!-- <div>
-                <a class="prev" href="../pages/page8.php">&#10094;</a>
-            </div> -->
-            <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Stillness</div>
                 Acrylic on canvas, 16&#x2033; x 20&#x2033; $1200&nbsp;USD<br>
                 <div class="spacer10"></div>
-                 Winter down east can be arresting. This scene in Hancock had a reassuring effect upon me.
+                Winter down east can be arresting. This scene in Hancock had a reassuring effect upon me.
             </div>
-            <!-- <div class="text"></div> -->
-            <br>
-            <!-- <div>
-                <a class="next" href="../pages/page10.php">&#10095;</a>
-            </div> -->
-
         </div>
-        <?php
-        require '../includes/footer.php';
-        ?>
+    </div>
+    <?php
+    require '../includes/footer.php';
+    ?>
 
 </body>
 

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<?php
+    <?php
     require '../includes/globalSiteTag.html';
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,35 +27,30 @@
             <img src="../images/vespers_herbert2.jpg" usemap="#map" style="width:100%">
             <!-- 1137 x 747 -->
             <map name="map">
-                <area shape="rect" coords="569,0,1137,747" alt="" href="../pages/page4.php">
-                <area shape="rect" coords="0,0,568,747" alt="" href="../pages/page2.php">
+                <area shape="rect" coords="569,0,1137,747" alt="" href="../pages/page4.php" title="Click image for Next">
+                <area shape="rect" coords="0,0,568,747" alt="" href="../pages/page2.php" title="Click image for Previous">
             </map>
 
-            <div class="map-next">
-                <!-- &#10095; -->
-                <a class="next" href="../pages/page4.php">&#10095;</a>
-            </div>
-
-            <div class="map-prev">
-                <!-- &#10094; -->
-                <a class="prev" href="../pages/page2.php">&#10094;</a>
-            </div>
+            <a class="next" href="../pages/page4.php">&#10095;</a>
+            <a class="prev" href="../pages/page2.php">&#10094;</a>
 
         </div>
+    </div>
+
+    <div class="text-block">
         <div class="text-section">
-            <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Vespers</div>
                 Acrylic on canvas, 20&#x2033; x 30&#x2033; $1500&nbsp;USD<br>
                 <div class="spacer10"></div>
-                 Painted after a late day walk with fellow artist and friend Pam Cabanas along with her dog Jessie on Hawthorne Point in Cushing, Maine.
+                Painted after a late day walk with fellow artist and friend Pam Cabanas along with her dog Jessie on Hawthorne Point in Cushing, Maine.
             </div>
-            <br>
-
         </div>
-        <?php
-        require '../includes/footer.php';
-        ?>
+    </div>
+
+    <?php
+    require '../includes/footer.php';
+    ?>
 
 </body>
 

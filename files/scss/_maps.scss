@@ -1,10 +1,9 @@
-
-// img[usemap] {
-//     border: none;
-//     height: auto;
-//     max-width: 100%;
-//     width: auto;
-// }
+img[usemap] {
+    border: none;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
 .artwork-container {
     .artwork {
         img[usemap] {
@@ -15,14 +14,13 @@
         }
     }
 }
-    
 
-    .map-next {
+.map-next {
     a {
         color: lightgrey;
         color: black;
         // border: 1px solid black;
-        opacity: .5;
+        opacity: 0.5;
         text-decoration: none;
     }
     font-weight: bold;
@@ -38,7 +36,7 @@
         color: red;
         color: black;
         // border: 1px solid black;
-        opacity: .5;
+        opacity: 0.5;
         text-decoration: none;
     }
     font-weight: bold;
@@ -48,4 +46,3 @@
     left: 5%;
     top: 100px;
 }
-

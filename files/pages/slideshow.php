@@ -48,7 +48,7 @@
 
         <div class="my-slides fade">
             <div class="numbertext">6 / 10</div>
-            <img src="../images/dyer_river_marsh.jpg" style="width:100%">
+            <img src="../images/dyer_river_marsh.png" style="width:100%">
         </div>
 
         <div class="my-slides fade">
@@ -72,53 +72,84 @@
         </div>
 
         <!-- ********************************************************************** -->
-        <map name="map1">
-            <area shape="rect" coords="660,0,1364,673" alt="" onclick="plusSlides(1)">
-            <area shape="rect" coords="0,0,660,673" alt="" onclick="plusSlides(-1)">
-        </map>
-        <map name="map2">
-            <area shape="rect" coords="579,0,1150,750" alt="" onclick="plusSlides(1)">
-            <area shape="rect" coords="0,0,578,750" alt="" onclick="plusSlides(-1)">
-        </map>
-        <map name="map3">
-            <area shape="rect" coords="569,0,1137,747" alt="" onclick="plusSlides(1)">
-            <area shape="rect" coords="0,0,568,747" alt="" onclick="plusSlides(-1)">
-        </map>
+        <template>
+            <map name="map1">
+                <area shape="rect" coords="660,0,1364,673" alt="" onclick="plusSlides(1)">
+                <area shape="rect" coords="0,0,660,673" alt="" onclick="plusSlides(-1)">
+            </map>
+        </template>
 
-        <map name="map4">
-            <area shape="rect" coords="658,0,1315,638" alt="" onclick="plusSlides(1)">
-            <area shape="rect" coords="0,0,657,638" alt="" onclick="plusSlides(-1)">
-        </map>
+        <template>
+            <map name="map2">
+                <area shape="rect" coords="579,0,1150,750" alt="" onclick="plusSlides(1)">
+                <area shape="rect" coords="0,0,578,750" alt="" onclick="plusSlides(-1)">
+            </map>
+        </template>
 
-        <map name="map5">
-            <area shape="rect" coords="490,0,979,720" alt="" onclick="plusSlides(1)">
-            <area shape="rect" coords="0,0,489,720" alt="" onclick="plusSlides(-1)">
-        </map>
+        <template>
+            <map name="map3">
+                <area shape="rect" coords="569,0,1137,747" alt="" onclick="plusSlides(1)">
+                <area shape="rect" coords="0,0,568,747" alt="" onclick="plusSlides(-1)">
+            </map>
+        </template>
 
-        <map name="map6">
-            <area shape="rect" coords="300,0,600,468" alt="" onclick="plusSlides(1)">
-            <area shape="rect" coords="0,0,299,468" alt="" onclick="plusSlides(-1)">
-        </map>
+        <template>
+            <map name="map4">
+                <area shape="rect" coords="658,0,1315,638" alt="" onclick="plusSlides(1)">
+                <area shape="rect" coords="0,0,657,638" alt="" onclick="plusSlides(-1)">
+            </map>
+        </template>
 
-        <map name="map7">
-            <area shape="rect" coords="416,0,832,516" alt="" onclick="plusSlides(1)">
-            <area shape="rect" coords="0,0,415,516" alt="" onclick="plusSlides(-1)">
-        </map>
+        <template>
+            <map name="map5">
+                <area shape="rect" coords="490,0,979,720" alt="" onclick="plusSlides(1)">
+                <area shape="rect" coords="0,0,489,720" alt="" onclick="plusSlides(-1)">
+            </map>
+        </template>
 
-        <map name="map8">
-            <area shape="rect" coords="436,0,871,694" alt="" onclick="plusSlides(1)">
-            <area shape="rect" coords="0,0,435,694" alt="" onclick="plusSlides(-1)">
-        </map>
+        <!-- <template>
+            <map name="map6">
+                600 x 468 
+                <area shape="rect" coords="300,0,600,468" alt="" onclick="plusSlides(1)">
+                <area shape="rect" coords="0,0,299,468" alt="" onclick="plusSlides(-1)">
+            </map>
+        </template> -->
 
-        <map name="map9">
-            <area shape="rect" coords="505,0,1009,736" alt="" onclick="plusSlides(1)">
-            <area shape="rect" coords="0,0,504,736" alt="" onclick="plusSlides(-1)">
-        </map>
+        <template>
+            <map name="map6">
+                <!-- 927 x 723 -->
+                <area shape="rect" coords="464,0,927,723" alt="" onclick="plusSlides(1)">
+                <area shape="rect" coords="0,0,463,723" alt="" onclick="plusSlides(-1)">
+            </map>
+        </template>
 
-        <map name="map10">
-            <area shape="rect" coords="563,0,1125,753" alt="" onclick="plusSlides(1)">
-            <area shape="rect" coords="0,0,562,753" alt="" onclick="plusSlides(-1)">
-        </map>
+        <template>
+            <map name="map7">
+                <area shape="rect" coords="416,0,832,516" alt="" onclick="plusSlides(1)">
+                <area shape="rect" coords="0,0,415,516" alt="" onclick="plusSlides(-1)">
+            </map>
+        </template>
+
+        <template>
+            <map name="map8">
+                <area shape="rect" coords="436,0,871,694" alt="" onclick="plusSlides(1)">
+                <area shape="rect" coords="0,0,435,694" alt="" onclick="plusSlides(-1)">
+            </map>
+        </template>
+
+        <template>
+            <map name="map9">
+                <area shape="rect" coords="505,0,1009,736" alt="" onclick="plusSlides(1)">
+                <area shape="rect" coords="0,0,504,736" alt="" onclick="plusSlides(-1)">
+            </map>
+        </template>
+
+        <template>
+            <map name="map10">
+                <area shape="rect" coords="563,0,1125,753" alt="" onclick="plusSlides(1)">
+                <area shape="rect" coords="0,0,562,753" alt="" onclick="plusSlides(-1)">
+            </map>
+        </template>
 
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>

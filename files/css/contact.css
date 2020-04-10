@@ -152,6 +152,49 @@
   }
 }
 
+.artwork-container .artwork {
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+}
+
+.artwork-container .artwork .prev,
+.artwork-container .artwork .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.artwork-container .artwork .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.artwork-container .artwork .prev:hover,
+.artwork-container .artwork .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+img[usemap] {
+  border: none;
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+
 .artwork-container .artwork img[usemap] {
   border: none;
   height: auto;
@@ -171,7 +214,7 @@
 .map-next a {
   color: lightgrey;
   color: black;
-  opacity: .5;
+  opacity: 0.5;
   text-decoration: none;
 }
 
@@ -188,7 +231,7 @@
   color: lightgrey;
   color: red;
   color: black;
-  opacity: .5;
+  opacity: 0.5;
   text-decoration: none;
 }
 

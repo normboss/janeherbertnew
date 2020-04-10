@@ -29,40 +29,29 @@
             <!-- 1315 x 638 -->
 
             <map name="map">
-                <area shape="rect" coords="658,0,1315,638" alt="" href="../pages/page5.php">
-                <area shape="rect" coords="0,0,657,638" alt="" href="../pages/page3.php">
+                <area shape="rect" coords="658,0,1315,638" alt="" href="../pages/page5.php" title="Click image for Next">
+                <area shape="rect" coords="0,0,657,638" alt="" href="../pages/page3.php" title="Click image for Previous">
             </map>
 
-            <div class="map-next">
-                <!-- &#10095; -->
-                <a class="next" href="../pages/page5.php">&#10095;</a>
-            </div>
-
-            <div class="map-prev">
-                <!-- &#10094; -->
-                <a class="prev" href="../pages/page3.php">&#10094;</a>
-            </div>
+            <a class="next" href="../pages/page5.php">&#10095;</a>
+            <a class="prev" href="../pages/page3.php">&#10094;</a>
 
         </div>
-
+    </div>
+    <div class="text-block">
         <div class="text-section">
-            <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Eagle over Hatchet Cove</div>
                 Acrylic on canvas, 18&#x2033; x 36&#x2033; $1500&nbsp;USD<br>
                 <div class="spacer10"></div>
-                 A lone eagle in flight added to the magic of a misty day.
+                A lone eagle in flight added to the magic of a misty day.
             </div>
-            <!-- <div class="text"></div> -->
-            <br>
-            <!-- <div>
-                <a class="next" href="../pages/page5.php">&#10095;</a>
-            </div> -->
-
         </div>
-        <?php
-        require '../includes/footer.php';
-        ?>
+    </div>
+
+    <?php
+    require '../includes/footer.php';
+    ?>
 
 </body>
 

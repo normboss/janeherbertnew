@@ -3,7 +3,7 @@
 
 <head>
     <?php
-       require '../includes/globalSiteTag.html';
+    require '../includes/globalSiteTag.html';
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,43 +29,30 @@
             <!-- 871 x 694 -->
 
             <map name="map">
-                <area shape="rect" coords="436,0,871,694" alt="" href="../pages/page9.php">
-                <area shape="rect" coords="0,0,435,694" alt="" href="../pages/page7.php">
+                <area shape="rect" coords="436,0,871,694" alt="" href="../pages/page9.php" title="Click image for Next">
+                <area shape="rect" coords="0,0,435,694" alt="" href="../pages/page7.php" title="Click image for Previous">
             </map>
 
-            <div class="map-next">
-                <!-- &#10095; -->
-                <a class="next" href="../pages/page9.php">&#10095;</a>
-            </div>
-
-            <div class="map-prev">
-                <!-- &#10094; -->
-                <a class="prev" href="../pages/page7.php">&#10094;</a>
-            </div>
+            <a class="next" href="../pages/page9.php">&#10095;</a>
+            <a class="prev" href="../pages/page7.php">&#10094;</a>
 
         </div>
 
+    </div>
+
+    <div class="text-block">
         <div class="text-section">
-            <!-- <div>
-                <a class="prev" href="../pages/page7.php">&#10094;</a>
-            </div> -->
-            <div class="text empty"></div>
             <div class="text">
                 <div class="heading">On Lookout Rock</div>
                 Acrylic on canvasboard 8&#x2033; x 10&#x2033; $400&nbsp;USD<br>
                 <div class="spacer10"></div>
-                 Changing light forces me to work quickly.
+                Changing light forces me to work quickly.
             </div>
-            <!-- <div class="text"></div> -->
-            <br>
-            <!-- <div>
-                <a class="next" href="../pages/page9.php">&#10095;</a>
-            </div> -->
-
         </div>
-        <?php
-        require '../includes/footer.php';
-        ?>
+    </div>
+    <?php
+    require '../includes/footer.php';
+    ?>
 
 </body>
 

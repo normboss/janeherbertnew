@@ -25,24 +25,21 @@
             <!-- <div class="numbertext">2 / 10</div> -->
             <!-- 1155 x 750 -->
             <img src="../images/side_light_herbert.jpg" usemap="#map" style="width:100%">
-            
+
             <map name="map">
-                <area shape="rect" coords="579,0,1150,750" alt="" href="../pages/page3.php" title="Click for next image">
-                <area shape="rect" coords="0,0,578,750" alt="" href="../pages/home.php" title="Click for previous image">
+                <area shape="rect" coords="579,0,1150,750" alt="" href="../pages/page3.php" title="Click image for Next">
+                <area shape="rect" coords="0,0,578,750" alt="" href="../pages/home.php" title="Click image for Previous">
             </map>
 
-            <!-- <div class="map-next">
-                <a class="next" href="../pages/page3.php">&#10095;</a>
-            </div>
-
-            <div class="map-prev">
-                <a class="prev" href="../pages/home.php">&#10094;</a>
-            </div> -->
+            <a class="next" href="../pages/page3.php">&#10095;</a>
+            <a class="prev" href="../pages/home.php">&#10094;</a>
         </div>
 
 
+    </div>
+
+    <div class="text-block">
         <div class="text-section">
-            <div class="text empty"></div>
             <div class="text">
                 <div class="heading">Side LIght</div>
                 Acrylic on linen, 24&#x2033; x 36&#x2033; $2500&nbsp;USD<br>
@@ -51,12 +48,12 @@
             </div>
             <br>
         </div>
-        <?php
-        require '../includes/footer.php';
-        ?>
 
     </div>
-    <br>
+
+    <?php
+    require '../includes/footer.php';
+    ?>
 
 
 </body>
