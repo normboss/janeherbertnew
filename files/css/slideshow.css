@@ -198,12 +198,12 @@
 }
 
 body {
-  font-family: Helvetica;
+  font-family: Verdana, sans-serif;
   margin: 0;
 }
 
-.my-slides {
-  display: block;
+.mySlides {
+  display: none;
 }
 
 img {
@@ -211,59 +211,129 @@ img {
 }
 
 /* Slideshow container */
-.artwork-container {
+.slideshow-container {
   max-width: 1000px;
-  width: 100%;
   position: relative;
   margin: auto;
-}
-
-.artwork-container .artwork {
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
   /* Caption text */
   /* Number text (1/3 etc) */
+  /* The dots/bullets/indicators */
+  /* Fading animation */
+  /* On smaller screens, decrease text size */
 }
 
-.artwork-container .artwork .text {
-  color: #f2f2f2;
+.slideshow-container .prev,
+.slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.slideshow-container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.slideshow-container .prev:hover,
+.slideshow-container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slideshow-container .text {
+  color: black;
   font-size: 15px;
   padding: 8px 12px;
-  bottom: 8px;
+  position: absolute;
   width: 100%;
   text-align: center;
 }
 
-.artwork-container .artwork img {
-  height: 85vh;
+.slideshow-container .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-.artwork-container .artwork .numbertext {
-  display: none;
+.slideshow-container .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
 }
 
-.artwork-container .artwork .extra-image {
-  position: relative;
-  top: -200px;
+.slideshow-container .active,
+.slideshow-container .dot:hover {
+  background-color: #717171;
 }
 
-.artwork-container .artwork .main-image {
+.slideshow-container .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .slideshow-container .prev,
+  .slideshow-container .next,
+  .slideshow-container .text {
+    font-size: 11px;
+  }
+}
+
+.text-block {
+  max-width: 1000px;
   width: 100%;
-  width: 700px;
+  margin: 0 auto;
+  margin-top: 0;
 }
 
-.artwork-container .artwork .extra-image1 {
-  display: none;
-}
-
-.artwork-container .artwork .extra-image2 {
-  display: none;
-}
-
-.artwork-container .text-section {
+.text-block .text-section {
   height: auto;
   background-color: rgba(233, 234, 239, 0.85);
   padding-bottom: 10px;
-  padding-top: 30px;
-  margin-top: -25px;
+  padding-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,14 +344,20 @@ img {
       align-content: flex-start;
 }
 
-@media screen and (max-width: 500px) {
-  .artwork-container .text-section {
-    min-width: 300px;
+@media screen and (max-width: 800px) {
+  .text-block .text-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
-.artwork-container .text-section .text {
-  width: 45%;
+.text-block .text-section .text {
+  width: 33%;
   color: black;
   padding-bottom: 20px;
   padding-left: 35px;
@@ -289,28 +365,28 @@ img {
   text-align: left;
   line-height: 25px;
   font-family: Helvetica;
-  font-size: 16px;
   opacity: 100%;
 }
 
-@media screen and (max-width: 500px) {
-  .artwork-container .text-section .text {
-    padding-left: 10px;
-    padding-right: 0;
-    width: 100%;
-  }
-}
-
-.artwork-container .text-section .text .heading {
+.text-block .text-section .text .heading {
   opacity: 100%;
   font-weight: bold;
 }
 
-.artwork-container .text-section .empty {
-  width: 30%;
+@media screen and (max-width: 800px) {
+  .text-block .text-section .text {
+    width: 80%;
+  }
 }
 
-.artwork-container .text-section .image {
+@media screen and (max-width: 800px) {
+  .text-block .text-section .text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.text-block .text-section .text .image {
   width: 140px;
   color: black;
   -ms-flex-item-align: center;
@@ -320,17 +396,17 @@ img {
 }
 
 @media screen and (max-width: 800px) {
-  .artwork-container .text-section .empty {
+  .text-block .text-section .text .empty {
     display: none;
   }
-  .artwork-container .text-section .text {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .artwork-container .text-section .text {
+  .text-block .text-section .text .text {
     width: 80%;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 500px) {
+  .text-block .text-section .text {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=slideshow.css.map */

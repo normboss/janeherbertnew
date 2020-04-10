@@ -27,19 +27,17 @@
             <img src="../images/side_light_herbert.jpg" usemap="#map" style="width:100%">
             
             <map name="map">
-                <area shape="rect" coords="579,0,1150,750" alt="" href="../pages/page3.php">
-                <area shape="rect" coords="0,0,578,750" alt="" href="../pages/home.php">
+                <area shape="rect" coords="579,0,1150,750" alt="" href="../pages/page3.php" title="Click for next image">
+                <area shape="rect" coords="0,0,578,750" alt="" href="../pages/home.php" title="Click for previous image">
             </map>
 
-            <div class="map-next">
-                <!-- &#10095; -->
+            <!-- <div class="map-next">
                 <a class="next" href="../pages/page3.php">&#10095;</a>
             </div>
 
             <div class="map-prev">
-                <!-- &#10094; -->
                 <a class="prev" href="../pages/home.php">&#10094;</a>
-            </div>
+            </div> -->
         </div>
 
 

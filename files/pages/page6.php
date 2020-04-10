@@ -32,15 +32,13 @@
                 <area shape="rect" coords="0,0,299,468" alt="" href="../pages/page5.php">
             </map>
 
-            <div class="map-next">
-                <!-- &#10095; -->
+            <!-- <div class="map-next">
                 <a class="next" href="../pages/page7.php">&#10095;</a>
             </div>
 
             <div class="map-prev">
-                <!-- &#10094; -->
                 <a class="prev" href="../pages/page5.php">&#10094;</a>
-            </div>
+            </div> -->
             
             <div class="text-section">
                 <!-- <div>

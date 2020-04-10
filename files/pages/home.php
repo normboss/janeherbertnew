@@ -23,12 +23,12 @@
 
         <div class="artwork">
             <!-- <div class="numbertext">1 / 10</div> -->
-            <img src="../images/low_pressure_appleton_ridge72px.jpg" usemap="#map1" style="width:100%">
+            <img src="../images/low_pressure_appleton_ridge72px.jpg" usemap="#map" style="width:100%">
             <!-- 1,364px × 673px (scaled to 1,000px × 493px) -->
             
-            <map name="map1">
-                <area shape="rect" coords="660,0,1364,673" alt="" href="../pages/page2.php">
-                <area shape="rect" coords="0,0,660,673" alt="" href="../pages/page10.php">
+            <map name="map">
+                <area shape="rect" coords="660,0,1364,673" alt="" href="../pages/page2.php" title="Click for next image">
+                <area shape="rect" coords="0,0,660,673" alt="" href="../pages/page10.php" title="Click for previous image">
             </map>
 
             <!-- <div class="next-prev">
@@ -36,15 +36,13 @@
                 <a class="next" href="../pages/page2.php">&#10095;</a>
             </div> -->
 
-            <div class="map-next">
-                <!-- &#10095; -->
+            <!-- <div class="map-next">
                 <a class="next" href="../pages/page2.php">&#10095;</a>
             </div>
 
             <div class="map-prev">
-                <!-- &#10094; -->
                 <a class="prev" href="../pages/page10.php">&#10094;</a>
-            </div>
+            </div> -->
         </div>
 
 

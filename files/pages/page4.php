@@ -29,8 +29,8 @@
             <!-- 1315 x 638 -->
 
             <map name="map">
-                <area shape="rect" coords="579,0,1150,750" alt="" href="../pages/page5.php">
-                <area shape="rect" coords="0,0,578,750" alt="" href="../pages/page3.php">
+                <area shape="rect" coords="658,0,1315,638" alt="" href="../pages/page5.php">
+                <area shape="rect" coords="0,0,657,638" alt="" href="../pages/page3.php">
             </map>
 
             <div class="map-next">
