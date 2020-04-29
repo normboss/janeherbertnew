@@ -22,7 +22,7 @@ $_SESSION['pagenumber'] = "0";
     <script>
 
 <?php
-    require 'files\includes\filenames.php';
+    require './files/includes/filenames.php';
 
     // echo 'document.getElementById( "' . $f2 . '" ).style.display = "none";';
     if (isset($_SESSION['pagenumber']))
