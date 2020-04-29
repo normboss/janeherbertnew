@@ -14,3 +14,11 @@
         <a href="exhibits.php">EXHIBITS</a>
     </div>
 </header>
+<?php
+    require '..\includes\filenames.php';
+    if ( isset($_SESSION["pagenumber"]) ){
+        $pageNum = $_SESSION['pagenumber'];
+        $page = $painting_filenames[$pageNum];
+    }
+
+?>

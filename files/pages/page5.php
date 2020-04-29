@@ -1,3 +1,8 @@
+<?php
+if (!session_id())
+    session_start();
+$_SESSION['pagenumber'] = "5";
+?>
 <!DOCTYPE html>
 <html>
 

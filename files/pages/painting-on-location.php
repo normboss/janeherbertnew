@@ -38,13 +38,13 @@ $_SESSION['pagenumber'] = "7";
             <img class="extra-image2" src="../images/jane_2016.png" style="width: 370px; height: auto;">
 
             <map name="map">
-                <area shape="rect" coords="416,0,832,516" alt="" href="../pages/page8.php" title="Click image for Next">
-                <area shape="rect" coords="0,0,415,516" alt="" href="../pages/page6.php" title="Click image for Previous">
+                <area shape="rect" coords="416,0,832,516" alt="" href="../pages/<?php echo $page->next ?>" title="Click image for Next">
+                <area shape="rect" coords="0,0,415,516" alt="" href="../pages/<?php echo $page->prev ?>" title="Click image for Previous">
             </map>
 
-            <a class="next" href="../pages/page8.php">&#10095;</a>
-            <a class="prev" href="../pages/page6.php">&#10094;</a>
-
+            <!-- <a class="next" href="../pages/page8.php">&#10095;</a>
+            <a class="prev" href="../pages/page6.php">&#10094;</a> -->
+            <?php require '../includes/prev-next.php'; ?>
         </div>
     </div>
 

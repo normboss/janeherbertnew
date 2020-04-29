@@ -1,6 +1,7 @@
 <?php
 if (!session_id())
     session_start();
+$_SESSION['pagenumber'] = "2";
 ?>
 <!DOCTYPE html>
 <html>
@@ -31,12 +32,13 @@ if (!session_id())
             <img src="../images/side_light_herbert.jpg" usemap="#map" style="width:100%">
 
             <map name="map">
-                <area shape="rect" coords="579,0,1150,750" alt="" href="../pages/page3.php" title="Click image for Next">
-                <area shape="rect" coords="0,0,578,750" alt="" href="../pages/home.php" title="Click image for Previous">
+                <area shape="rect" coords="579,0,1150,750" alt="" href="../pages/<?php echo $page->next ?>" title="Click image for Next">
+                <area shape="rect" coords="0,0,578,750" alt="" href="../pages/<?php echo $page->prev ?>" title="Click image for Previous">
             </map>
 
-            <a class="next" href="../pages/page3.php">&#10095;</a>
-            <a class="prev" href="../pages/home.php">&#10094;</a>
+            <!-- <a class="next" href="../pages/page3.php">&#10095;</a>
+            <a class="prev" href="../pages/home.php">&#10094;</a> -->
+            <?php require '../includes/prev-next.php'; ?>
         </div>
 
 
