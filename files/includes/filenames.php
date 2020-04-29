@@ -13,8 +13,8 @@ if ( isset($_SESSION["pagenumber"]) )
             $this->next = $next;
         }
     }
-
-    $painting_filenames["0"] = new Painting("none",                             "low-pressure-appleton-ridge.php",  "low-pressure-appleton-ridge.php");        
+//                                          current painting                    previous painting                   next painting 
+    $painting_filenames["0"] = new Painting("index.php",                        "low-pressure-appleton-ridge.php",  "low-pressure-appleton-ridge.php");        
     $painting_filenames["1"] = new Painting("low-pressure-appleton-ridge.php",  "my-studio.php",                    "side-light.php");        
     $painting_filenames["2"] = new Painting("side-light.php",                   "low-pressure-appleton-ridge.php",  "vespers.php");          
     $painting_filenames["3"] = new Painting("vespers.php",                      "side-light.php",                   "eagle-over-hatchet-cove.php");             

@@ -6,13 +6,16 @@ $_SESSION['pagenumber'] = "0";
 <!DOCTYPE html>
 <html>
 <head>
+    <?php
+    require 'files/includes/globalSiteTag.html';
+    ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jane Herbert</title>
     <style>
-        a { 
-            /* color: white; */
+        a {
+            color: #FFF;
         }
     </style>
 </head>
