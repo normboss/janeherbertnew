@@ -4,7 +4,7 @@
     </div>
     <div class="header-text">
         <!-- <a href="/JaneHerbertNew/index.php">Home</a> -->
-        <a href="home.php">HOME</a>
+        <a href="low-pressure-appleton-ridge.php">HOME</a>
     </div>
     <div class="header-text">
         <!-- <a href="/JaneHerbertNew/files/pages/contact.php" target="_blank">Contact</a> -->
