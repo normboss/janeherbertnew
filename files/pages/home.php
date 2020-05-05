@@ -8,10 +8,9 @@ if (!session_id())
 <head>
     <?php
     require '../includes/globalSiteTag.html';
-    ?>
+    require 'files/includes/keywords.php';
+        ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Low Pressure, Appleton Ridge - Jane Herbert</title>
     <meta charset="UTF-8">
 
     <link href="../css/home.css" media="screen" rel="stylesheet" type="text/css">

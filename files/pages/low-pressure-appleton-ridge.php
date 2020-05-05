@@ -9,12 +9,10 @@ $_SESSION['pagenumber'] = "1";
 <head>
     <?php
     require '../includes/globalSiteTag.html';
-    ?>
+    require 'files/includes/keywords.php';
+        ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Low Pressure, Appleton Ridge - Jane Herbert</title>
     <meta charset="UTF-8">
-
     <link href="../css/home.css" media="screen" rel="stylesheet" type="text/css">
     <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
