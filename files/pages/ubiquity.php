@@ -9,7 +9,7 @@ $_SESSION['pagenumber'] = "5";
 <head>
     <?php
     require '../includes/globalSiteTag.html';
-    require 'files/includes/keywords.php';    
+    require '../includes/keywords.php';    
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
