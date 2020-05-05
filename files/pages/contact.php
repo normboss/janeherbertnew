@@ -3,7 +3,7 @@
 
 <head>
 <?php
-    require 'files/includes/globalSiteTag.html';
+    require '../includes/globalSiteTag.html';
     require '../includes/keywords.php';
     ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
