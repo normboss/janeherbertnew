@@ -10,7 +10,7 @@ $_SESSION['pagenumber'] = "8";
     <?php
     require '../includes/globalSiteTag.html';
         ?>
-    <title>Jane Herbert | “On Lookout Rock” painting</title>
+    <title>Jane Herbert painting - “On Lookout Rock”</title>
     <meta name="description" content="A perched cormorant with a view of the Atlantic, acrylic on canvas. 8 x 10” $400.USD">
 
 

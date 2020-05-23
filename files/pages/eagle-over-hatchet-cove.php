@@ -10,7 +10,7 @@ $_SESSION['pagenumber'] = "4";
     <?php
     require '../includes/globalSiteTag.html';
     ?>
-    <title>Jane Herbert | “Eagle Over Hatchet Cove” painting</title>
+    <title>Jane Herbert painting - “Eagle Over Hatchet Cove”</title>
     <meta name="description" content="Painting of a lone eagle over Maine Islands. 18 x 36” $1500. USD">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">

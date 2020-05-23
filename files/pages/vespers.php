@@ -10,7 +10,7 @@ $_SESSION['pagenumber'] = "3";
     <?php
     require '../includes/globalSiteTag.html';
     ?>
-    <title>Jane Herbert - "Vespers" painting</title>
+    <title>Jane Herbert painting - "Vespers"</title>
     <meta name="description" content="Late day colors illuminate a dog walker in the field known as Christina's World. 24 x 30 $1500.">
 
 

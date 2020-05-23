@@ -10,7 +10,7 @@ $_SESSION['pagenumber'] = "2";
     <?php
     require '../includes/globalSiteTag.html';
     ?>
-    <title>Jane Herbert - "Side Light" painting</title>
+    <title>Jane Herbert painting - "Side Light"</title>
     <meta name="description" content="Evening view from Little Morse Island in Friendship, Maine. 24 x 36” $2500.">
 
 

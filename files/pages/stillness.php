@@ -11,7 +11,7 @@ $_SESSION['pagenumber'] = "9";
     require '../includes/globalSiteTag.html';
     ?>
 
-    <title>Jane Herbert | “Stillness” painting</title>
+    <title>Jane Herbert painting - “Stillness”</title>
     <meta name="description" content="Hancock, Maine inlet painted in silver winter tones on canvas. 16 x 20” $1200.USD">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
