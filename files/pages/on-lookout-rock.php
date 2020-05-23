@@ -9,12 +9,14 @@ $_SESSION['pagenumber'] = "8";
 <head>
     <?php
     require '../includes/globalSiteTag.html';
-    require '../includes/keywords.php';
         ?>
+    <title>Jane Herbert | “On Lookout Rock” painting</title>
+    <meta name="description" content="A perched cormorant with a view of the Atlantic, acrylic on canvas. 8 x 10” $400.USD">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
-    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
 </head>
 

@@ -9,13 +9,15 @@ $_SESSION['pagenumber'] = "5";
 <head>
     <?php
     require '../includes/globalSiteTag.html';
-    require '../includes/keywords.php';    
     ?>
+    <title>Jane Herbert painting “Ubiquity”</title>
+    <meta name="description" content="Quiet mood of low tide in dreamy fog done on the scene. 18 x 24” $900.USD">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
 
     <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
-    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
 </head>
 

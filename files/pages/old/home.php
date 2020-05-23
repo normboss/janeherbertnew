@@ -8,13 +8,15 @@ if (!session_id())
 <head>
     <?php
     require '../includes/globalSiteTag.html';
-    require '../includes/keywords.php';
         ?>
+    <title>Jane Herbert | art gallery | painting "Low Pressure"</title>
+    <meta name="description" content="Preview original paintings for purchase by Maine coastal artist. Shown: Low Pressure 18 x 36 acrylic on canvas $2500.">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
 
     <link href="../css/home.css" media="screen" rel="stylesheet" type="text/css">
-    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
 </head>
 

@@ -9,13 +9,15 @@ $_SESSION['pagenumber'] = "3";
 <head>
     <?php
     require '../includes/globalSiteTag.html';
-    require '../includes/keywords.php';
     ?>
+    <title>Jane Herbert - "Vespers" painting</title>
+    <meta name="description" content="Late day colors illuminate a dog walker in the field known as Christina's World. 24 x 30 $1500.">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
 
     <link href="../css/style.css" media="screen" rel="stylesheet" type="text/css">
-    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
 </head>
 

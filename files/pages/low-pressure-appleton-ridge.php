@@ -9,12 +9,14 @@ $_SESSION['pagenumber'] = "1";
 <head>
     <?php
     require '../includes/globalSiteTag.html';
-    require '../includes/keywords.php';
         ?>
+
+    <title>Jane Herbert painting - "Low Pressure, Appleton Ridge"</title>
+    <meta name="description" content="Jane Herbert - Maine coastal artist. Painting: Low Pressure, Appleton Ridge 18 x 36” acrylic on canvas $2500. USD">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <link href="../css/home.css" media="screen" rel="stylesheet" type="text/css">
-    <!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script> -->
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
 </head>
 
