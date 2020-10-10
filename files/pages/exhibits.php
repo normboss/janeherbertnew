@@ -26,27 +26,6 @@
             <img src="../images/december_twilight.jpg" style="width:60%">
             <div class="exhibits">
                 <div class="text1">Special Events</div>
-                <!-- <div class="spacer20"></div> -->
-                <!-- <div class="text2">Maine Coastal Islands Art Gallery </div>
-                <div class="text2">National Wildlife Refuge</div>
-                <div class="">9 Water Street</div>
-                <div class="">Rockland, Maine 04841 </div>
-                <div class="">Monday - Friday 8 - 4:30 </div>
-                <div class="spacer20"></div>
-                <div class="text2">Reception and Holiday Open House</div>
-                <div class="text3">Saturday December 7th, 2019 - 11 - 2 pm </div>
-                <div class="text3">A portion of sales benefits Friends of </div>
-                <div class="text3">Maine Coastal Islands National Wildlife Refuge. </div>
-                <div class="spacer20"></div>
-                <div class="">Show runs through March 20th, 2020</div>
-                <div class="spacer20"></div>
-                <div class="text2">Holiday Offerings Group Show </div>
-                <div class="text2">Richard Boyd Art Gallery </div>
-                <div class="">15 Epps Street </div>
-                <div class="">Peaks Island, Portland, Maine </div>
-                <div class="">Winter Hours </div>
-                <div class="">Friday, Saturday, Sunday 10 - 3 </div> -->
-
                 <br>
                 <div class="text2">Corona Virus Impacts Everyone</div>
                 <p>
@@ -55,14 +34,23 @@
                     each do our part to soften the impact of the pandemic.
                 </p>
                 <div class="event">
-                    <span class="text4">August 2020 </span><br>
-                    <span class="text0">Solo Show</span><br>
+                    <span class="text4">
+                        <?php require '../includes/exhibit-content1.php'; ?>
+                    </span><br>
+
+                    <span class="text0">
+                        <?php require '../includes/exhibit-content2.php'; ?>
+                    </span><br>
+
+                    
                     <span class="text4">Richard Boyd Art Gallery</span><br>
                     <span class="tex5">15 Epps Street</span><br>
                     <span class="tex5">Peaks Island, Portland, Maine</span><br>
                     <span class="tex5">August Hours 10 - 5</span><br>
                 </div>
             </div>
+
+
         </div>
 
         <div class="text-section">
